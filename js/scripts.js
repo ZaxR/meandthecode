@@ -1,17 +1,9 @@
-
-$(document).ready(function(){/* activate sidebar */
-$('#sidebar').affix({
-  offset: {
-    top: 235
-  }
-});
-
 /* activate scrollspy menu */
 var $body   = $(document.body);
 var navHeight = $('.navbar').outerHeight(true) + 10;
 
 $body.scrollspy({
-	target: '#leftCol',
+	target: '#myNavbar',
 	offset: navHeight
 });
 
@@ -27,7 +19,6 @@ $('a[href*=#]:not([href=#])').click(function() {
         return false;
       }
     }
-});
 });
 
 /*Progress bar load */
