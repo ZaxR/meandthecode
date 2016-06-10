@@ -144,6 +144,7 @@ body {
 /* Progress Bar */
 .progress {
   height: 35px;
+  border-radius: 4px;
 
 }
 .progress .skill {
@@ -205,7 +206,7 @@ body {
   width: 50%;
   float: left;
   border: 1px solid #d4d4d4;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -366,3 +367,42 @@ label {
     margin-bottom: 20px;
 }
 
+/* Testimonials */
+blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 4px;
+      border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    margin-top: 25px;
+    color:#000000;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:#000000;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    margin-top: -65px;
+}
